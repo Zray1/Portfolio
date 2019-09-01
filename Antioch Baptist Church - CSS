@@ -1,0 +1,550 @@
+* {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Header styles*/
+header {
+  background-image: url("https://image.freepik.com/free-vector/elegant-red-background_1340-4770.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  padding-top: 10px;
+  width: 100%;
+  z-index: 5;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+header ul li {
+padding: 10px;
+}
+header ul li:hover{
+  color: grey;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+#pass {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#loc {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#tit {
+  color: white;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#tit h1 {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+/*Div styles*/
+#intro {
+  height: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 150px;
+  background-image: url("AntiochImages/IMG_5417.JPG");
+  background-size: cover;
+}
+#intro a {
+text-decoration: none;
+font-weight:bold;
+}
+
+#socialz {
+  list-style-type: none;
+  display: flex;
+  float: right;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.social {
+  size: 7px;
+  padding: 5px;
+  color: black;
+}
+
+#service {
+  padding: 35px;
+}
+
+#cpt {
+  list-style-type: none;
+  text-align: center;
+}
+
+#cpt li {
+  color: #B22222;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 10px;
+}
+.sermontitle{
+  font-weight: bold;
+}
+.dunkin {
+  text-align: center;
+  display: block;
+}
+#photolink{
+  color: #B22222;
+  text-decoration: underline;
+}
+#photolink:active{
+  color: #B22222;
+}
+
+#photolink:checked{
+  color: #B22222;
+}
+
+#other {
+  text-align: center;
+}
+
+#other h3 {
+  color: #B22222;
+  font-size: 30px;
+  padding: 15px;
+  border-bottom: 2px solid #B22222;
+  text-shadow: 1px 1px 1px black;
+}
+
+#other ul {
+  list-style-type: none;
+  padding: 10px;
+}
+#other ul li{
+  padding:10px;
+}
+#other audio{
+  padding:10px;
+}
+
+#whoresponse {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+/*What styles*/
+#what {
+  background-color: #D7D4D4;
+  padding: 10px;
+}
+
+#whattitle {
+  color: #B22222;
+  font-size: 33px;
+  padding: 15px;
+  border-bottom: 2px solid #B22222;
+  text-shadow: 1px 1px 1px black;
+}
+#verses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.versehead {
+  color: black;
+  font-size: 23px;
+}
+
+.script {
+  display: block;
+  font-size: 15px;
+  color: #B22222;
+}
+
+.outer {
+  background-image: url("https://image.freepik.com/free-vector/elegant-red-background_1340-4770.jpg");
+  border: 1px solid grey;
+  padding: 10px 10px 0px 10px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.inner {
+  border: 1px solid white;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top:15px;
+}
+
+.inner p {
+  font-size: 12px;
+
+}
+#sermonz{
+  z-index: 1;
+}
+
+/*Pastor styles*/
+h2 {
+  text-align: center;
+}
+
+#pastor {
+  background-image: url("https://image.freepik.com/free-vector/elegant-red-background_1340-4770.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 30px;
+}
+
+#pastor img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+#pastorhead {
+  color: white;
+  font-size: 33px;
+  padding: 15px;
+  border-bottom: 2px solid;
+  text-shadow: 1px 1px 1px black;
+}
+
+#pastor h3 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+#pastor p {
+  color: white;
+  line-height: 1.4em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Church History styles*/
+#church {
+  background-color: #D7D4D4;
+  padding: 30px;
+}
+
+#church h2 {
+  font-size: 33px;
+  padding: 15px;
+  color: #B22222;
+  border-bottom: 2px solid;
+  text-shadow: 1px 1px 1px black;
+}
+
+#church p {
+  line-height: 1.4em;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#church img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+/*Footer styles*/
+footer {
+  background-color: #D7D4D4;
+  padding: 30px;
+}
+
+footer h2 {
+  font-size: 33px;
+  color: #B22222;
+  padding: 15px;
+  text-shadow: 1px 1px 1px black;
+}
+
+footer h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  color: #B22222;
+  text-shadow: 1px 1px 1px black;
+}
+
+footer p {
+  padding-bottom: 5px;
+}
+
+footer form input {
+  margin-bottom: 10px;
+}
+#footstuff{
+  text-align: center;
+}
+#footstuff iframe{
+  width: 350px;
+  height: 300px;
+  padding:10px;
+}
+footer div {
+  margin: 10px;
+}
+
+/*Ministry Styles*/
+#minverse {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 10px;
+  color: black;
+}
+
+.mingivetitle {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #B22222;
+  font-size: 27px;
+  background-color: #D7D4D4;
+
+}
+
+.minbox {
+  color: black;
+  text-align: center;
+}
+
+.mintext {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+
+#outest {
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+}
+
+.outie {
+  background-image: url("https://image.freepik.com/free-vector/elegant-red-background_1340-4770.jpg");
+  padding: 15px;
+  Margin: 10px;
+  border-radius: 20px;
+}
+
+.inie {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/*Giving Page styles*/
+#paypal {
+  text-align: center;
+  padding: 40px;
+}
+
+#paypal h3 {
+  padding: 20px;
+}
+
+#thanks {
+  text-align: center;
+  padding: 20px;
+}
+#bigbox{
+  max-width: 300px;
+}
+.imagez{
+  max-width: 300px;
+}
+.imagez img{
+  width:200px;
+  height:180px;
+}
+.imagez td{
+  padding:20px;
+  display: block;
+}
+#switch{
+  transform: rotate(90deg);
+}
+#op{
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.7em;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #D7D4D4;
+}
+#sermon{
+  padding: 20px;
+}
+#calendar{
+  text-align: center;
+}
+#calendar iframe{
+  width: 260px;
+  height: 300px;
+  padding:10px;
+}
+@media screen and (min-width: 800px) {
+  #headli {
+    display: flex;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+  }
+
+  #intro {
+    margin-top: 50px;
+  }
+
+  .mingivetitle {
+    margin-top: 150px;
+  }
+  #verses {
+    display: flex;
+    justify-content: center;
+
+  }
+  .inner p {
+    font-size: 12px;
+    line-height: 1.3em;
+  }
+
+  #socialz {
+    display: block;
+  }
+
+  .social {
+    padding: 3px;
+  }
+
+  #tit ul {
+    display: flex;
+  }
+#sermonz{
+  overflow: auto;
+}
+  #verses {
+    padding-top: 20px;
+    max-width:1000px;
+  }
+
+  #whattitle {
+    padding-top: 20px;
+  }
+
+  #what {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #church {
+    padding: 100px;
+  }
+
+  #pastor {
+    padding: 100px;
+  }
+
+  #cpt {
+
+  }
+
+  #cpt li {
+    font-size: 22px;
+  }
+  #other{
+    display: flex;
+  }
+
+  #outest {
+    padding-right: 220px;
+    padding-left: 220px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .outie {
+    width:250px;
+    padding:15px;
+    margin:10px;
+    align-items: center;
+  }
+  .inie{
+    padding:10px;
+  }
+  .imagez td{
+    padding:20px;
+  }
+  .imagez tr{
+    display:flex;
+  }
+  #calendar iframe{
+    width:400px;
+    height: 300px;
+    padding:10px;
+  }
+  #alot{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+  }
+  #footstuff{
+    display: flex;
+    justify-content: center;
+  }
+  #footstuff iframe{
+    width:400px;
+    height: 300px;
+    padding:10px;
+  }
+  #announce{
+    max-width: 450px;
+  }
+}
