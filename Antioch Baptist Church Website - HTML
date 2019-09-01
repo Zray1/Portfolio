@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <title>Antioch Baptist Church</title>
+</head>
+<!-- TODO: http://rwd.cci.kent.edu/zray1/Assignments/Ray-Root/AntiochSite/ -->
+
+<body>
+  <header>
+    <div id="headli">
+      <!-- TODO: Need to fix header spacing so h1 is centered and logo is left of h1 -->
+      <div id="logo">
+        <img src="http://ez-host2.com/graphics/UploadFile/3737/ABC_Logo_.jpg" alt="logo">
+        <ul id="socialz">
+          <li class="social"><a href="https://www.youtube.com/channel/UCDWfkZHBUcYw6oBXDR3Nlmw"><i class="fab fa-youtube"></i></a></li>
+          <li class="social"><a href="https://twitter.com/abcsewickley"><i class="fab fa-twitter-square"></i></a></li>
+          <li class="social"><a href="https://www.facebook.com/AntiochSewickley/"><i class="fab fa-facebook"></i></a></li>
+          <li class="social"><a href="https://www.instagram.com/antiochfwbaptist/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+
+      <div id="tit">
+
+        <h1>
+          Antioch Baptist Church<span id="pass">Reverend Travis C. Coon
+          </span><span id="loc">332 Elizabeth St, Sewickley, PA 15143 | (412) 741-7688 | antiochfwbaptist@comcast.net</span>
+        </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href=#church>Church History</a></li><!-- TODO: When clicked moves to this section -->
+          <li><a href=#pastor>Pastor's Bio</a></li> <!-- TODO: When clicked moves to this section of the page -->
+          <li><a href="ministry.html">Ministries</a></li>
+          <li> <a href="giving.html">Giving</a></li>
+          <li><a href=#foot>Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+  <div id="intro">
+    <!-- TODO: dont delete -->
+    <p id="photolink"><a href="abcgallery.html">Photo Gallery</a></p>
+  </div>
+
+  <section id="what">
+    <h2 id="whattitle">Who are we?</h2>
+    <p id="whoresponse">We are a body of born again baptized believers of Jesus Christ according to Romans 10:9-10 </p>
+    <div id="alot">
+      <div id="service">
+        <ul id="cpt">
+          <li>Sunday School - <span class="dunkin">9:30 AM</span></li>
+          <li>Morning Worship & Praise Service - <span class="dunkin">10:45 AM</span></li>
+          <li>Wednesday - Bible Study and Prayer Service - <span class="dunkin">7:00 PM</span></li>
+        </ul>
+      </div>
+      <div id="calendar">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23b22222&amp;ctz=America%2FNew_York&amp;src=YW50aW9jaGZ3YmFwdGlzdEBnbWFpbC5jb20&amp;color=%23D50000&amp;showTitle=0&amp;showNav=1&amp;showTabs=1&amp;showCalendars=1&amp;showTz=0&amp;showDate=1"
+          style="border-width:0" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+    <div id="other">
+      <div id="announce">
+        <h3>Anouncements</h3>
+        <ul>
+          <li><span class="sermontitle"> Upcoming September Events:</span></li>
+          <li><span class="sermontitle"> Wednesday, September 4th, 11th, 18th and 25th, 2019</span> - 7:00pm each night, Annual Fall revival</li>
+          <li><span class="sermontitle"> Thursday, September 22nd, 2019</span> - 10:45am, 8th Pastoral Anniversary, more details to follow</li>
+          <li><span class="sermontitle">Upcoming October Events</span></li>
+          <li><span class="sermontitle">Sunday October 27th</span> - 7:30am - 9:30am - Annual Men’s Day breakfast, Men’s day service at 10:45am, Guest speaker, Reverend Melvin T. Jackson, First Missionary Baptist Church, Leetsdale, PA</li>
+          <li><span class="sermontitle">Upcoming November Events</span></li>
+          <li><span class="sermontitle">Sunday November 8th </span>- 10:45am, Annual Youth Day, Guest speaker Reverend Damon Bratton, Rock Christian Fellowship Church, Rochester, PA</li>
+          <li><span class="sermontitle">Upcoming December Events</span></li>
+          <li><span class="sermontitle">Sunday December 8th</span> - after service, Christmas party</li>
+          <li><span class="sermontitle">Sunday December 31st</span> - Watchnight service – details TBA</li>
+        </ul>
+      </div>
+      <div id="sermonz">
+        <h3>Sermons</h3>
+        <ul>
+          <li>
+            <p class="sermontitle">6-23-19 - The Power of Division</p>
+            <audio controls>
+              <source src="AntiochImages/6-23-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">6-30-19 - The Power Within Us</p>
+            <audio controls>
+              <source src="AntiochImages/6-30-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">7-7-19 - When the Book Runs Dry</p>
+            <audio controls>
+              <source src="AntiochImages/7-7-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">7-14-19 - We Have the Victory </p>
+            <audio controls>
+              <source src="AntiochImages/7-14-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">7-21-19 - Our Even Though Moments</p>
+            <audio controls>
+              <source src="AntiochImages/7-21-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">7-28-19 - God is Real</p>
+            <audio controls>
+              <source src="AntiochImages/7-28-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+          <li>
+            <p class="sermontitle">8-4-19 - Examining Ourselves</p>
+            <audio controls>
+              <source src="AntiochImages/8-4-19sermon.mp3" type="audio/mp3">
+            </audio>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h2 id="whattitle">What the Bible says about</h2> <br />
+    <div id="verses">
+
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Faith<span class="script">Ephesians 2:8-9</span></h2>
+          <p>For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God— 9 not by works, so that no one can boast.</p>
+        </div>
+      </div>
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Wisdom <span class="script">James 1:5</span></h2>
+          <p>If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.</p>
+        </div>
+      </div>
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Anger <span class="script">Romans 12:19</span></h2>
+          <p>Do not take revenge, my dear friends, but leave room for God’s wrath, for it is written: “It is mine to avenge; I will repay,” says the Lord.</p>
+        </div>
+      </div>
+
+
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Strength <span class="script">2 Corinthians 12:9</span></h2>
+          <p>“My grace is sufficient for you, for My strength is made perfect in weakness.” Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me.</p>
+        </div>
+      </div>
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Trust <span class="script">Proverbs 3:5</span></h2>
+          <p>Trust in the Lord with all your heart,
+            And lean not on your own understanding;</p>
+        </div>
+      </div>
+      <div class="outer">
+        <div class="inner">
+          <h2 class="versehead">Worry <span class="script">Philippians 4:6</span></h2>
+          <p>Be anxious for nothing, but in everything by prayer and supplication, with thanksgiving, let your requests be made known to God;</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div>
+    <p id="op">Our prayer is that our website will serve as a tool to share the gospel of Jesus Christ.
+
+      Please tour our site to find out more about our church and how we can serve you.
+    </p>
+  </div>
+  <section id="church">
+    <h2>Church History</h2>
+    <p>The Antioch Freewill Baptist Church was organized in 1890 with the leadership of Rev. C.W. Frazer. Antioch began as a storefront on Fike Street, which has since been renamed Division Street. The church burned down and all of the records were
+      lost in the fire. After that, the church brought the land where Antioch stands today. Rev. Frazer served as pastor from 1895 to 1896 and then Rev. John W. Kirk was called to preach at Antioch.
+
+      In 1908 Rev. Kirk died and Rev. Rozelle was called to pastor Antioch. During his leadership the church we are presently in was constructed. Antioch was chartered in 1915. The church was built in 1918 and Rev. Rozelle served as pastor until
+      1930, then Rev. Mason was the pastor for a short while.<br /><br />
+      <!-- TODO: Find a better image of the church to use -->
+      <img src="AntiochImages/IMG_0122.JPG" alt="Pastor img" align="left">In 1935 Antioch called Rev. Salle to pastor the church. Rev. Sallie served as pastor until his death and then Rev. Roberts was our Pastor for a short period of time.
+
+      The next pastor of Antioch was Rev. E.M. Brown, who served for nine years. After Rev. Brown came Rev. Battles for a short period of time. Rev. O.R. Tipper was next to pastor Antioch and during his leadership a baptismal pool and new stained
+      glass windows were added to the church. The windows are in memorandum of former members and to honor those who were actively serving in Antioch. Next, Rev. Albert Gans was called and stayed for three years.
+
+      In 1968 Antioch called Rev. Langhorne. During his leadership a new accounting system was acquired and Antioch’s first son, Minister Ronald Glenn served as assistant pastor for two years. When Rev. Langhorne left, Antioch asked the Council of
+      Churches to ordain Min. Glenn and in 1972 Min. Glenn was licensed and ordained with Rev. Langhorne assisting with his ordination. <br /><br />
+
+      During Rev. Glenn’s leadership the church purchased a parsonage and new pews. He also assisted us in developing new bylaws because the first set was destroyed in the fire. Also while Rev. Glenn served as Pastor Minister E. Harris was licensed
+      to preach in 1976 and served as Assistant pastor. Rev. Glenn was pastor of Antioch for 7.5 years. In 1978 Rev. Massey became Pastor of Antioch followed by Rev. Donald Smith in 1981. Rev. Smith resigned in 1987 and Antioch was without a Pastor
+      until July of 1988 when Rev. Norman Hunt was called. Pastor Hunt resigned in July 1998.
+
+      In September 1999 Antioch called Minister Troy Sligh. Shortly after coming to Antioch Rev. Sligh was ordained. Rev. Sligh appointed his wife, Carletta Sligh as Minister of Music. Minister Richard Owens and Minister Jerome Johnson and families
+      both joined under Rev. Sligh and Rev. Owens was ordained in 2007. In 2007 Antioch established this website. Rev. Sligh resigned in January, 2008.<br /><br />
+
+      From April 2009 - April 2011 Rev. Gary L. Hughes pastored Antioch. Reginald Myers and family joined and were with us under Rev. Hughes.<br /><br />
+
+      In October 2011 Antioch called Rev. Travis C. Coon. Pastor Coon comes to us from St. John the Evangelist, Hazelwood, PA. He brings with him his wife Margo, son Travis and daughter Courtnie. In 2014 God blessed Antioch with Minister Walt
+      Huewitt, Sis. Marie and family who were with us until they moved out of the area.<br /><br />
+
+      For 129 years Antioch has found that trusting in God will allow us to have all our needs met through his riches in glory. Antioch cannot thank God enough for the wisdom he has bestowed upon us as we continue to trust him for a blessed
+      future.<br /><br />
+
+      As we continue this Christian journey, let us pray that God continues to let us be on one accord with the Trinity, The Father, Son and Holy Spirit. Amen.<p>
+  </section>
+  <section id="pastor">
+    <h2 id="pastorhead">Pastor's Bio</h2>
+    <br>
+    <p>
+      Reverend Travis C. Coon was his father's right-hand man St. John the Evangelist Baptist Church, Hazelwood, PA since he was 13, but he didn't get the call to the ministry until many years later. He first served in the army from 1981 to 1991 in
+      Fort Benning, Ga., Germany and in the reserves.
+
+      In 1989 he married Margo Sanders Coon, and in 1990 Travis Christian Coon was conceived, followed by Courtnie Paige in 1995.<br /><br />
+
+      <img src="AntiochImages/IMG_0048.JPG" alt="Pastor img" align="left">Before preaching he sang in the Angelics Choir at St Johns’, and also served as a trustee. He helped teach the children’s hour providing insightful messages and illustrations
+      to the youth of the church. As he transferred his membership to
+      Midland he picked up where he left off at St John’s and became a member of the Voices of Praise, Men’s choir, and also taught Sunday school before becoming Superintendent. Rev. Coon also revamped the Men’s Ministry at First Baptist which at
+      that time was called Brothers Keepers. <br /><br />
+      In 1996, after he and his family became members at First Baptist Church in Midland, PA to be closer to their home in East Liverpool, Ohio, Reverend Coon had an experience that let him know he was destined to preach. He preached his initial
+      sermon in October 1997 and served as assistant to the pastor at First Baptist from 1997 to 2004 and was ordained in 2003. After his Pastor, Rev Gary Borders went home to be with the Lord, Rev. Coon filled in until 2006 before returning to St.
+      John’s.<br /><br />
+
+      After returning back to St John’s Rev. Coon was then his father’s right hand man and assistant to the pastor. Rev Coon assisted his father in the day to day functions of the church. Rev. Coon also started the Youth Honor Roll Ministry. Rev.
+      Coon was also instrumental in the church audio ministry as well as website page. <br /><br />
+
+      Rev. Coon loves preaching the gospel of Jesus Christ to all people and does it in a way that everyone understands it. He loves everyone and is accepted by the young and the old as he loves to bridge the two together.
+
+      Rev. Coon has performed numerous weddings, funerals, and revivals. In his first revival over ten youth came to Christ and helped to baptize them. Rev. Coon had been teaching Bible Study at St. John’s up until his calling to Antioch Baptist
+      Church. He plans to lead Antioch as the Holy Spirit directs him.<br /><br />
+
+      In 1998 Rev. Coon began his Theological Studies at Trinity College and Theological Seminary. He plans on continuing them at the Reformed Presbyterian Theological Seminary.
+
+      Rev. Coon also has ties with the community. He is a former President of the East Liverpool NAACP, and a current member of the Pittsburgh Baptist Ministers Conference and Vicinity. He is currently an Assistant Manager for Giant Eagle where he
+      has been employed since 1985.
+      <p>
+  </section>
+
+</body>
+<footer id="foot">
+  <h2>Contact Us</h2><!-- TODO: Connect this section to backend of website -->
+  <img src="" alt="">
+  <div id="footstuff">
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9257569446077!2d-80.18275318479054!3d40.543229379350564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883460a974d7d061%3A0x449839e65e80346a!2s332+Elizabeth+St%2C+Sewickley%2C+PA+15143!5e0!3m2!1sen!2sus!4v1559097237851!5m2!1sen!2sus"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p><a href="https://www.google.com/maps/place/332+Elizabeth+St,+Sewickley,+PA+15143/@40.543229,-80.180564,16z/data=!4m5!3m4!1s0x883460a974d7d061:0x449839e65e80346a!8m2!3d40.5432294!4d-80.1805645?hl=en">Click Here for Directions</a></p>
+    </div>
+    <div>
+      <h3>Send us a Message or Prayer Request</h3>
+      <p><a href="mailto: antiochfwbaptist@comcast.net">Click Here</a></p>
+    </div>
+  </div>
+</footer>
+
+
+</html>
+
