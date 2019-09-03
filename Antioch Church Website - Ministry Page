@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <title>Antioch Baptist Church</title>
+</head>
+
+<body>
+  <header>
+    <div id="headli">
+      <!-- TODO: Need to fix header spacing so h1 is centered and logo is left of h1 -->
+      <div id="logo">
+        <img src="http://ez-host2.com/graphics/UploadFile/3737/ABC_Logo_.jpg" alt="logo">
+        <ul id="socialz">
+          <li class="social"><a href="https://www.youtube.com/channel/UCDWfkZHBUcYw6oBXDR3Nlmw"><i class="fab fa-youtube"></i></a></li>
+          <li class="social"><a href="https://twitter.com/abcsewickley"><i class="fab fa-twitter-square"></i></a></li>
+          <li class="social"><a href="https://www.facebook.com/AntiochSewickley/"><i class="fab fa-facebook"></i></a></li>
+          <li class="social"><a href="https://www.instagram.com/antiochfwbaptist/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+
+      <div id="tit">
+
+        <h1>
+          Antioch Baptist Church<span id="pass">Reverend Travis C. Coon - Pastor</span><span id="loc">332 Elizabeth St, Sewickley, PA 15143 | (412) 741-7688 | antiochfwbaptist@comcast.net</span>
+        </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href=#church>Church History</a></li><!-- TODO: When clicked moves to this section -->
+          <li><a href=#pastor>Pastor's Bio</a></li> <!-- TODO: When clicked moves to this section of the page -->
+          <li><a href="ministry.html">Ministries</a></li>
+          <li> <a href="giving.html">Giving</a></li>
+          <li><a href=#foot>Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+  <div class="mingivetitle">
+    <h2>Antioch's Ministries <span id="minverse">"You must honor the Lord and truly serve him with all your heart. Remember the wonderful things he did for you!" - 1 Samuel 12:24</span>
+    </h2>
+  </div>
+  <div id="outest">
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Deacon Ministry</h2>
+        <p class="mintext">Antioch's Deacon's visit the sick and shut-in, serve communion and help upkeep God's house. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Deaconess Ministry</h2>
+        <p class="mintext">
+          Antioch's Deaconess are servants of the Lord who assist with Communion, Baptisms and caring for the sick. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Music Ministry</h2>
+        <p class="mintext">Antioch Baptist Church has two choirs, the Gospel Senders and Children of Antioch. Antioch also has a Praise and Worship Team. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Audio Ministry</h2>
+        <p class="mintext">The Audio Ministry supports worship service at Antioch. We strive to provide the best possible music selection and audio technical support. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Ushers Ministry</h2>
+        <p class="mintext">Antioch Baptist Church has a Junior and Senior Usher Board. The goal of the Usher Ministry is to make everyone who enters the sanctuary to feel comfortable and welcome. We enjoy our duties and are like David, "... I would
+          rather be a doorkeeper in the house of the Lord than to dwell in the tents of the wicked." Psalm 84:10. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Missionaries Ministry</h2>
+        <p class="mintext">The goal of Antioch's Missionaries is to be a blessing to those in need. It is our goal to reach out to the sick, less fortunate, college students, lost, etc.
+          One of our missions that we take great pride in is making and serving lunch to the residents of the Bethlehem Haven Women's Shelter located downtown Pittsburgh. We also strive to reach out to those who are sick and shut in or in nursing
+          homes.</p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Women of Praise Ministry</h2>
+        <p class="mintext">This ministry is dedicated to worshiping the Lord through the art of dance. We seek to glorify God in all aspects of our lives and praise dancing is another way in which we desire to please God. Psalms 150:4 Praise Him with
+          the timbrel and dance. </p>
+      </div>
+    </div>
+    <div class="outie">
+      <div class="inie">
+        <h2 class="minbox">Youth Ministry</h2>
+        <p class="mintext">"For thou art my hope, O Lord God: thou art my trust from my youth." Psalms 71:5 . Antioch has Sunday School at 9:30 a.m. If a ride is needed, the church van is available for pick ups. The children of Antioch participate in
+          various plays/praise dances/Christian raps throughout the year and we also have Jr. Ushers and a Children's Choir. In addition to our annual outing Antioch has youth activities throughout the year. Sunday School students pursing higher
+          education are also rewarded.
+
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+<footer id="foot">
+  <h2>Contact Us</h2><!-- TODO: Connect this section to backend of website -->
+  <img src="" alt="">
+  <div id="footstuff">
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9257569446077!2d-80.18275318479054!3d40.543229379350564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883460a974d7d061%3A0x449839e65e80346a!2s332+Elizabeth+St%2C+Sewickley%2C+PA+15143!5e0!3m2!1sen!2sus!4v1559097237851!5m2!1sen!2sus"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p><a href="https://www.google.com/maps/place/332+Elizabeth+St,+Sewickley,+PA+15143/@40.543229,-80.180564,16z/data=!4m5!3m4!1s0x883460a974d7d061:0x449839e65e80346a!8m2!3d40.5432294!4d-80.1805645?hl=en">Click Here for Directions</a></p>
+    </div>
+    <div>
+      <h3>Send us a Message or Prayer Request</h3>
+      <p><a href="mailto: antiochfwbaptist@comcast.net">Click Here</a></p>
+    </div>
+  </div>
+</footer>
+
+</html>
