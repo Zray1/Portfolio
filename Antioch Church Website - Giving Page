@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <title>Antioch Baptist Church</title>
+</head>
+
+<body>
+  <header>
+    <div id="headli">
+      <!-- TODO: Need to fix header spacing so h1 is centered and logo is left of h1 -->
+      <div id="logo">
+        <img src="http://ez-host2.com/graphics/UploadFile/3737/ABC_Logo_.jpg" alt="logo">
+        <ul id="socialz">
+          <li class="social"><a href="https://www.youtube.com/channel/UCDWfkZHBUcYw6oBXDR3Nlmw"><i class="fab fa-youtube"></i></a></li>
+          <li class="social"><a href="https://twitter.com/abcsewickley"><i class="fab fa-twitter-square"></i></a></li>
+          <li class="social"><a href="https://www.facebook.com/AntiochSewickley/"><i class="fab fa-facebook"></i></a></li>
+          <li class="social"><a href="https://www.instagram.com/antiochfwbaptist/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+
+      <div id="tit">
+
+        <h1>
+          Antioch Baptist Church<span id="pass">Reverend Travis C. Coon - Pastor</span><span id="loc">332 Elizabeth St, Sewickley, PA 15143 | (412) 741-7688 | antiochfwbaptist@comcast.net</span>
+        </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href=#church>Church History</a></li><!-- TODO: When clicked moves to this section -->
+          <li><a href=#pastor>Pastor's Bio</a></li> <!-- TODO: When clicked moves to this section of the page -->
+          <li><a href="ministry.html">Ministries</a></li>
+          <li> <a href="giving.html">Giving</a></li>
+          <li><a href=#foot>Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+  <div class="mingivetitle">
+    <h2>Giving</h2> <p id="minverse">2 Corinthians 9:6-7 "Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously. 7 Each of you should give what you have decided in your heart to give, not
+        reluctantly or under
+        compulsion, for God loves a cheerful giver.</p>
+  </div>
+  <section>
+    <div id="paypal">
+      <h3>Donate through PayPal</h3>
+
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="WZ3EYHCLD5MEL" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </div>
+  </section>
+  <!-- TODO: Need to fix this p statement it is fine at the bottom of the body, buttons can be in the middle. -->
+  <p id="thanks">We are pleased that you are considering a gift to Antioch Baptist Church to help us continue our ministry. Financially, we are self-sustaining and must gather enough financial resources each year to continue our local church
+    ministries. Thank you for your gift.</p>
+
+</body>
+<footer id="foot">
+  <h2>Contact Us</h2><!-- TODO: Connect this section to backend of website -->
+  <img src="" alt="">
+  <div id="footstuff">
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9257569446077!2d-80.18275318479054!3d40.543229379350564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883460a974d7d061%3A0x449839e65e80346a!2s332+Elizabeth+St%2C+Sewickley%2C+PA+15143!5e0!3m2!1sen!2sus!4v1559097237851!5m2!1sen!2sus"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p><a href="https://www.google.com/maps/place/332+Elizabeth+St,+Sewickley,+PA+15143/@40.543229,-80.180564,16z/data=!4m5!3m4!1s0x883460a974d7d061:0x449839e65e80346a!8m2!3d40.5432294!4d-80.1805645?hl=en">Click Here for Directions</a></p>
+    </div>
+    <div>
+      <h3>Send us a Message or Prayer Request</h3>
+      <p><a href="mailto: antiochfwbaptist@comcast.net">Click Here</a></p>
+    </div>
+  </div>
+</footer>
+
+
+</html>
