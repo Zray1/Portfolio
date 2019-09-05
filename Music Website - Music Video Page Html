@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Zach James Music</title>
+</head>
+
+<body>
+  <h1 class="musictit">Music Videos</h1>
+  <h3><a href="music.html" class="back">Back to Music</a></h3>
+  <h3 class="year">2019</h3>
+  <div class="outest">
+    <h2 class="musicsubtit">Surf's Up Music Video</h2>
+    <div class="partone">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4mEk0Ti2GCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext"> Fact: YES, we recorded this joint in a candy store lmao!</p>
+      </div>
+    </div>
+  </div>
+  <div class="outest">
+    <h2 class="musicsubtit">Go Down Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/aoPYqBN0Lv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext"> Tip: Watch while fried. You might get dizzy</p>
+      </div>
+    </div>
+  </div>
+  <div class="outest">
+    <h2 class="musicsubtit">Level Up Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/bQ8e7baL9To" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext">Tip: Make sure your speakers are turned all the way up!</p>
+      </div>
+    </div>
+  </div>
+  <h3 class="year">2018</h3>
+  <div class="outest">
+    <h2 class="musicsubtit">Pills Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/u9PxkKmX0Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext">Tip: Don't do drugs kids :) they are bad</p>
+      </div>
+    </div>
+  </div>
+  <div class="outest">
+    <h2 class="musicsubtit">Sauce Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/L0v3nWs9AKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext">Facts: Mumbo sauce is great on fried chicken, Ranch is nasty that's why it wasn't mentioned, and Mustard is overrated. </p>
+      </div>
+    </div>
+  </div>
+  <h3 class="year">2017</h3>
+  <div class="outest">
+    <h2 class="musicsubtit">Vent Session Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/S20QSnMnv8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext">Tip: Don't be afraid to vent A little, it's good for the mind and soul!</p>
+      </div>
+    </div>
+  </div>
+  <div class="outest">
+    <h2 class="musicsubtit">Any Means Music Video</h2>
+    <div class="partone">
+      <iframe src="https://www.youtube.com/embed/yn6Gu0TDVf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bigquote">
+        <p class="musictext">Tip: Don't record a music video in a jacket when it's 80+ degrees outside!</p>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <h1 class="musictit">Follow Me on Social Media:</h1>
+  <div class="foot">
+    <h3 class="atname"><a href="https://www.instagram.com/callmezj/?hl=en"> @Callmezj</a> </h3>
+    <h3 class="atname"><a href="https://twitter.com/callmezj_?lang=en"> @Callmezj_</a> </h3>
+    <h3 class="atname"><a href="https://www.instagram.com/greatwallofmotivation/?hl=en"> @Greatwallofmotivation</a> </h3>
+  </div>
+</footer>
+
+</html>
